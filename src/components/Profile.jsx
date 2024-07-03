@@ -1,6 +1,6 @@
 export default function Profile(){
     return(
-        <img src="https://i.imgur.com/QIrZWGIs.jpg" alt="Alan L. Hart" />
+<img src="https://i.imgur.com/MK3eW3As.jpg" alt="" />
     )
 }
 

@@ -1,32 +1,32 @@
 import React  from 'react'
 import Gallery from './components/Gallery.jsx'
-import TodoList from './components/TodoList.jsx'
+import Ok from './components/TodoList.jsx'
+import Ok2 from './components/Props.jsx'
+
 import './App.css'
 
 
 
-function App(){
-  return (<div className='main'>
+export default function App() {
+
+  return(
+    <>
+  <div className='main'>
   <h1>HassanAfridi</h1>
   <h2>HassanAfridi</h2>
-  </div> )
-}
+  </div>
 
-
-
-
-
-const ok = () =>{
- <div>
-  return(
-   <h1>First <Gallery></Gallery></h1>
+   <h1>First Gallery</h1>
    <Gallery />
+
+   <div><Ok/></div>
     
+   <div><Ok2/></div>
+   </>
   )
 
- </div>
+
 }
 
 
 
-export default App
